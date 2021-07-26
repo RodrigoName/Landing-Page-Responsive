@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+
+.container-fluid {
+    padding-left: 150px;
+}
+
+.navbar-collapse img {
+    width: 50px;
+
+    
+}
+.b-img img {
+   max-width: 80%;
+}
+
+h1 {
+    font-family: 'Varela Round', cursive;
+    font-size: 70px;
+}
+
+.b-img .title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    padding-top: 50px;
+    display: flex;
+    padding-left: 50px;
+}
+
+.b-img2{
+    background-color: rgb(24, 63, 97);
+    display: flex;
+    font-family: 'Varela Round', cursive;
+    color: rgb(37, 87, 133);
+}
+
+.tabela {
+    padding-top: 50px;
+}
+
+h5, h6 {
+    color: gray;
+}
+
+.align-middle {
+    text-align: center;
+}
+
+
+.table-responsive {
+    padding-bottom: 60px;
+}
+
+.table-adj {
+    padding-bottom: 50px;
+}
+
+thead {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.footer-f {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #073b4c;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+
+  @media (max-width: 480px) { 
+
+    h1 {
+        font-family: 'Varela Round', cursive;
+        font-size: 20px;
+    }
+
+    .container-fluid {
+        padding-left: 10px;
+    }
+
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .title img {
+        padding-top: 10px;
+        max-height: 70px;
+    }
+
+    #divv2 img {
+        max-height: 70px;
+        padding-top: 30px;
+    }
+
+    #divv2 .title {
+        font-size: 30px;
+        
+    }
+    
+    tbody {
+        font-size: 10px;
+    }
+    
+   }
